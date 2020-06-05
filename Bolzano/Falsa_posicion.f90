@@ -1,16 +1,16 @@
-subroutine Bolzano(func, a, b, soluc, error, iter)
+subroutine Falsa_posicion(func, a, b, soluc, error, iter)
 
     implicit none
     
-    double precision:: func,  a, b, soluc, error
+    double precision:: func,  a, b, soluc, error, 
     integer:: iter, i
-    
     
     do i = 1,iter
         
-        soluc = func( (b-a)/2.d0 )
         
-        if ( (soluc*a) > 0.d0) then
+        soluc = a- ( ( func(a)*(b-a) )/ (func(b) - func(a)) )
+        
+        if ( (soluc*a) > 0) then
     
             a = soluc
             
@@ -27,5 +27,4 @@ subroutine Bolzano(func, a, b, soluc, error, iter)
     
     
     
-end subroutine Bolzano
-
+end subroutine Falsa_posicion

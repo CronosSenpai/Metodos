@@ -26,8 +26,13 @@
 	<Files>
 		<Filter Name="Header Files" Filter="fi;fd">
 		<File RelativePath=".\Programa_principal.f90"/></Filter>
-		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		<File RelativePath=".\Bolzano.f90"/>
+		<File RelativePath=".\Falsa_posicion.f90"/>
+		<File RelativePath=".\Falsa_posicion_modificado.f90"/>
+		<File RelativePath=".\Newton-Raphson.f90"/></Filter>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
-		<File RelativePath=".\Bolzano.f90"/></Filter>
+		<File RelativePath=".\derivada.f90"/>
+		<File RelativePath=".\funcion.f90"/></Filter>
 		<File RelativePath=".\ReadMe.txt"/></Files>
 	<Globals/></VisualStudioProject>

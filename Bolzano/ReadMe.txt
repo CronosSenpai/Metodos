@@ -1,25 +1,15 @@
-========================================================================
-    Fortran Console Application : "Bolzano" Project Overview
-========================================================================
+Informacion
 
-The Intel Fortran Console Application Wizard has created this 
-"Bolzano" project for you as a starting point.
+Los archivos que no tienen terminacion .f90 son generados automaticamente en github por microsoft visual studio,
+desconozco si tienen utilidad, pero son innecesarios para ejecutar el programa.
 
-This file contains a summary of what you will find in each of the files 
-that make up your project.
+Este programa ejecuta diferentes algoritmos de busqueda de raices de funciones (f(x)=0), los metodos utilizados son:
 
-Bolzano.vfproj
-    This is the main project file for Fortran projects generated using an 
-    Application Wizard.  It contains information about the version of 
-    Intel Fortran that generated the file, and information about the 
-    platforms, configurations, and project features selected with the 
-    Application Wizard.
+Metodo de Bolzano
 
-Bolzano.f90
-    This is the main source file for the Fortran Console application. 
-    It contains the program entry point.
 
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
 
-/////////////////////////////////////////////////////////////////////////////
+Metodo de la falsa posicion
+
+
+Metodo de
