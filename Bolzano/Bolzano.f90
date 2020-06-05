@@ -1,25 +1,12 @@
-!  Bolzano.f90 
-!
-!  FUNCTIONS:
-!  Bolzano - Entry point of console application.
-!
-
-!****************************************************************************
-!
-!  PROGRAM: Bolzano
-!
-!  PURPOSE:  Entry point for the console application.
-!
-!****************************************************************************
-
-    program Bolzano
+function Bolzano(x) result(y)
 
     implicit none
-
+    
+    double precision:: x, y
     ! Variables
-
+    y= x*x
     ! Body of Bolzano
     print *, 'Hello World'
-
-    end program Bolzano
+    
+end function Bolzano
 
